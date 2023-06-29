@@ -1,5 +1,6 @@
 import Image from "next/image"
 import Navbar from "./components/Navbar"
+import Hero from "./components/HeroSection/Hero"
 
 export default function Home() {
   return (
@@ -18,6 +19,9 @@ export default function Home() {
               src="https://github.githubassets.com/images/modules/site/home-campaign/hero-bg.webp"
               alt=""
             />
+          </div>
+          <div className="px-3 Hero-section">
+            <Hero />
           </div>
         </div>
       </div>
